@@ -1,32 +1,32 @@
 @import "style-variables";
 @import "ngd-components";
 
-
-#app-background{
+// Frame
+#app-component{
   overflow: hidden;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
 }
-.ngd-tile {
-  background-color: $color-tile-bg;
-}
-#app-side-and-content {
-  height: 100%;
-}
 app-top-menu{
 }
-app-main-content{
-  display: block;
-  width: 100%;
-  height: 100%;
-  padding-left: 200px;
+#app-side-and-content {
+  flex-grow: 1;
+  display: flex;
+  align-items: stretch;
+  height: 100px;
 }
 app-side-menu{
+  overflow: hidden;
   display: block;
-  position: absolute;
   width: 200px;
-  height: 100%;
   border-right: 1px solid $color-decorator;
 }
+#app-main-content{
+  overflow: auto;
+  display: block;
+  flex-grow: 1;
+  padding: 20px 20px 20px 20px;
+}
+
