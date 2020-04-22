@@ -1,0 +1,9 @@
+@import "style-variables";
+
+.ngd-tile{
+  background-color: $color-tile-bg;
+  backdrop-filter: blur(5px);
+}
+.ngd-tile-grayscale{
+  backdrop-filter: blur(5px) grayscale(50%);
+}

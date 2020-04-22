@@ -1,0 +1,28 @@
+@import "../ngd-components";
+#hamburger-button{
+  height: 40px;
+  width: 50px;
+}
+#top-menu {
+  height: 40px;
+  border-bottom: 1px solid $color-decorator;
+}
+
+#top-title-text:focus {
+  outline: none;
+}
+#top-title-text:hover {
+  color: rgba(255,255,255,.2);
+}
+#top-title-text {
+  cursor: pointer;
+  display: inline-block;
+  font-size: $font-size-xl;
+  transition: color $duration-transition-s;
+}
+#top-title {
+  font-family: titleFont, serif;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}

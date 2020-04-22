@@ -1,0 +1,38 @@
+@font-face {
+  font-family: titleFont;
+  src: url("src/assets/fonts/Girassol-Regular.ttf");
+}
+@font-face {
+  font-family: mainFont;
+  src: url("src/assets/fonts/Ubuntu-Regular.ttf");
+}
+
+$color-tile-bg: rgba(255, 151, 0, 0.1);
+$color-default-text: rgba(200, 200, 200, 1);
+
+$color-decorator: rgba(200,200,200,.2);
+
+$color-button-text: rgba(200, 200, 200, 1);
+$color-button-text_hover: rgba(255, 255, 255, .5);
+$color-button-text_active: rgba(200, 200, 200, 1);
+$color-button-bg: rgba(0, 0, 0, 0.0);
+$color-button-bg_hover: rgba(0, 0, 0, 0.1);
+$color-button-bg_active: rgba(0, 0, 0, 0.0);
+
+$radius-xs: 1px;
+$radius-s: 2px;
+$radius-m: 3px;
+$radius-l: 4px;
+$radius-xl: 5px;
+
+$font-size-xs: 12px;
+$font-size-s: 18px;
+$font-size-m: 0px;
+$font-size-l: 0px;
+$font-size-xl: 30px;
+
+$duration-transition-xs: 100ms;
+$duration-transition-s: 250ms;
+$duration-transition-m: 500ms;
+$duration-transition-l: 750ms;
+$duration-transition-xl: 1000ms;

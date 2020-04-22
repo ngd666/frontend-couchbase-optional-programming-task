@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./app/style-variables";
+
+
+button{
+  transition: background-color,color $duration-transition-s;
+  cursor: pointer;
+  color: $color-button-text;
+  border: none;
+  background-color: $color-button-bg;
+}
+button:hover{
+  color: $color-button-text_hover;
+  background-color: $color-button-bg_hover;
+}
+button:focus {
+  outline: none;
+}
+body {
+  overflow: hidden;
+  font-family: mainFont, sans-serif;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  color: $color-default-text;
+  background-image: url("src/assets/pics/wallpapers/beerbar.png");
+  background-size: cover;
+  background-position: center;
+}
+p{
+  margin: 0;
+}
