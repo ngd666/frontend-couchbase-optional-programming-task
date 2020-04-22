@@ -3,7 +3,7 @@
 
 
 button{
-  transition: background-color,color $duration-transition-s;
+  transition: background-color $duration-transition-s,color $duration-transition-s;
   cursor: pointer;
   color: $color-button-text;
   border: none;
@@ -24,7 +24,7 @@ body {
   margin: 0;
   background-color: black;
   color: $color-default-text;
-  background-image: url("src/assets/pics/wallpapers/beerbar.png");
+  background-image: url("src/assets/pics/wallpapers/beerbar.jpg");
   background-size: cover;
   background-position: center;
 }

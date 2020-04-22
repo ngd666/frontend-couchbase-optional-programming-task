@@ -1,9 +1,26 @@
 @import "style-variables";
 
-.ngd-tile{
+.ngd-tile {
   background-color: $color-tile-bg;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur($size-blur);
 }
-.ngd-tile-grayscale{
-  backdrop-filter: blur(5px) grayscale(50%);
+
+.ngd-navigation-button {
+  background-color: $color-link-button-bg;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: $color-button-text;
+  border-radius: $radius-m;
+  border-bottom: 1px solid $color-decorator;
+  transition: background-color $duration-transition-s, color $duration-transition-s;
+}
+.ngd-navigation-button:hover {
+  background-color: $color-link-button-bg_hover;
+  color: $color-button-text_hover;
+}
+.ngd-navigation-button:focus {
+  background-color: $color-link-button-bg_active;
+  text-decoration: underline;
+  color: $color-button-text_hover;
 }

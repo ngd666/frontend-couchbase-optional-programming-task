@@ -7,6 +7,7 @@ import {TopMenuComponent} from './top-menu/top-menu.component';
 import {SideMenuComponent} from './side-menu/side-menu.component';
 import {HomePageComponent} from './home-page/home-page.component';
 import { BreweryListPageComponent } from './brewery-list-page/brewery-list-page.component';
+import { BeerListPageComponent } from './beer-list-page/beer-list-page.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { BreweryListPageComponent } from './brewery-list-page/brewery-list-page.
     TopMenuComponent,
     SideMenuComponent,
     HomePageComponent,
-    BreweryListPageComponent
+    BreweryListPageComponent,
+    BeerListPageComponent
   ],
   imports: [
     BrowserModule,

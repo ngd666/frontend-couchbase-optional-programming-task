@@ -1,0 +1,12 @@
+@import "src/app/ngd-components";
+@import "src/app/style-variables";
+
+a {
+  flex-grow: 1;
+  margin-top: 10px;
+  font-size: $font-size-s;
+}
+i{
+  margin-right: 10px;
+  font-size: $font-size-l;
+}
